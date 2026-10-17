@@ -20,7 +20,7 @@ def test_a_new_hero_has_full_health():
 def test_a_new_hero_starts_at_level_1():
     hero = Hero("Ada")
     assert hero.level == 1
-    assert hero - hero.xp == 0
+    assert hero.xp == 0
 
 
 def test_hero_take_damage():
